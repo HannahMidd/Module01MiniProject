@@ -24,11 +24,11 @@ main {
 li {
   display: inline;
   padding: 0px 20px;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 a {
-  text-decoration: none;
+  font-size: 2em;
   color: #FDF8F5;
 }
 
@@ -90,6 +90,7 @@ textarea {
   box-sizing: border-box;
   width: 300px;
   border: 1px solid #4F4846;
+  margin-top: 10px;
 }
 
 textarea {
@@ -98,8 +99,10 @@ textarea {
 }
   
 button {
+  /* Added margin to space button from form */
   height: 40px;
-  width: 120px;
+  width: 130px;
+  margin-top: 10px;
   background-color: #4F4846;
   color: #FDF8F5;
 }
